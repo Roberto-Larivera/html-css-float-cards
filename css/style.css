@@ -17,12 +17,24 @@ body{
     clear: both;
 }
 
-
+/* HEADER  */
+h1{
+    font-weight: 600;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #e53170;
+}
 /* CONTENITORE MAIN  */
+.contenitore-riga{
+    margin-top: 50px;
+}
 .card{
     height: 100px;
     width: calc((100% / 3) - 20px);
     background-color: black;
+
+    -webkit-box-shadow: 5px 5px 15px 7px rgba(0,0,0,0.44); 
+    box-shadow: 5px 5px 15px 7px rgba(0,0,0,0.44);
 }
 
 .float-left{
@@ -37,6 +49,9 @@ body{
 
 img{
     height: 100px;
+}
+section>p{
+    text-align: center;
 }
 
 /* CARD  */
