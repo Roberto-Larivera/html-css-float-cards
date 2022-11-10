@@ -1,0 +1,98 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* GENERALE */
+body{
+    
+}
+#body-container{
+    max-width: 1200px;
+    margin: 50px auto;
+    font-family: 'Fredoka', sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* HADER  */
+
+#bar-header{
+    height: 20px;
+    background-image: url(../img/pattern-mio.png);
+    background-repeat: repeat-x;
+    background-size: 200px;
+}
+
+/* HEADER MAIN  */
+h1{
+    font-weight: 600;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #e53170;
+}
+/* CONTENITORE MAIN  */
+.contenitore-riga{
+    margin-top: 50px;
+}
+.card{
+    height: 100px;
+    width: calc((100% / 3) - 20px);
+    background-color: black;
+
+    -webkit-box-shadow: 5px 5px 15px 7px rgba(0,0,0,0.44); 
+    box-shadow: 5px 5px 15px 7px rgba(0,0,0,0.44);
+}
+
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+
+.float-center{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+img{
+    height: 100px;
+}
+section>p{
+    text-align: center;
+}
+
+/* CARD  */
+.text-card{
+    color:white;
+}
+.text-card p:nth-child(3){
+    color: #56b0cc;
+}
+
+.text-card p{
+    margin: 10px;
+}
+h3{
+    font-weight: 500;
+    margin: 10px;
+}
+
+
+.insta img{
+    height: 45px;
+    filter: invert(100%)
+}
+
+.icona-insta{
+    margin: 25px 10px;
+    opacity: 0;
+}
+
+.icona-insta:hover{
+    opacity: 100%;
+}
