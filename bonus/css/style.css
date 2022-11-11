@@ -70,11 +70,17 @@ section>p{
 .text-card{
     color:white;
 }
-.text-card p:nth-child(3){
+/* .text-card p:nth-child(3){
     color: #56b0cc;
+} */    
+/* **** MODIFICA (P email) in a ***** */
+
+.text-card a{
+    color: #56b0cc;
+    text-decoration: none;
 }
 
-.text-card p{
+.text-card p, .text-card a{
     margin: 10px;
 }
 h3{
